@@ -1,0 +1,38 @@
+http://127.0.0.1:8000/api/tariff/?search=VIP4
+http://127.0.0.1:8000/api/tariff/?ordering=price
+http://127.0.0.1:8000/api/tariff/?ordering=-price
+
+http://127.0.0.1:8000/api/tariff/?ordering=price,id
+http://127.0.0.1:8000/api/tariff/?ordering=price,id
+http://127.0.0.1:8000/api/tariff/?ordering=name
+http://127.0.0.1:8000/api/tariff/?ordering=name&data_center=3
+http://127.0.0.1:8000/api/tariff/?ordering=price&data_center=2
+http://127.0.0.1:8000/api/tariff/?ordering=-price&data_center=3
+
+http://127.0.0.1:8000/auth/register/
+
+
+
+http://127.0.0.1:8000/auth/register/
+http://127.0.0.1:8000/api/user/3/        GET, PUT, DELETE
+http://127.0.0.1:8000/api/user/4
+http://127.0.0.1:8000/auth/login/
+http://127.0.0.1:8000/auth/register/
+http://127.0.0.1:8000/auth/token/
+HTTP 200 OK
+Allow: POST, OPTIONS
+Content-Type: application/json
+Vary: Accept
+
+{
+    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcxNTM1MDUxNSwiaWF0IjoxNzE1MjY0MTE1LCJqdGkiOiI2MGZlZGQyYjQyMzI0NDY4ODlhZmU3ZmRjYTRkOWJlNyIsInVzZXJfaWQiOjJ9.10GrM8a3HLB9-FpWSwEJBmOewRPl28566nrQGyjAtIw",
+    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MjY0NDE1LCJpYXQiOjE3MTUyNjQxMTUsImp0aSI6IjA0NTRhZDYyMjkwNDQ5N2NiYmM5ZTNlNDgxNzUwMjFlIiwidXNlcl9pZCI6Mn0.iigZgFYRHQZj9d4-1nkv3MINMno02cYDClOZXGwr9PI"
+
+    http://127.0.0.1:8000/api/tariff/
+    http://127.0.0.1:8000/api/tariff/?ordering=-price&data_center=3&search=VIP4
+    http://127.0.0.1:8000/auth/login/
+
+
+{
+    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcxNTU3NTAyOSwiaWF0IjoxNzE1NDg4NjI5LCJqdGkiOiIwOGIyMWNlZTRmNGM0N2Q0YTEzMWQyYjkxYTJmMGQyZSIsInVzZXJfaWQiOjJ9.YhO-FZlbWs8vXTWML8B2VAT1Vv6oP2noD-_jMeTCRdA",
+    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1NTI0NjI5LCJpYXQiOjE3MTU0ODg2MjksImp0aSI6IjM1ZDhiN2ExMjQ4ZDQ1MDU4MWIxNGVhYWI1OWVmY2IxIiwidXNlcl9pZCI6Mn0.YEGoQYoSv0RpR0Glz-XsT2wPpXqeHlfsS0avTbrCpkM"
